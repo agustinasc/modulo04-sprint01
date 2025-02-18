@@ -32,6 +32,19 @@ const Cards = () => {
         <Card image={panDulce} title="Pan dulce"/>
         <Card image={focaccia} title="Focaccia"/>
         <Card image={budin} title="Budin"/>
+        <Card image={foto} title="Pan artesanal"/>
+        <Card image={panDulce} title="Pan dulce"/>
+        <Card image={focaccia} title="Focaccia"/>
+        <Card image={budin} title="Budin"/>
+        <Card image={foto} title="Pan artesanal"/>
+        <Card image={panDulce} title="Pan dulce"/>
+        <Card image={focaccia} title="Focaccia"/>
+        <Card image={budin} title="Budin"/>
+        <Card image={foto} title="Pan artesanal"/>
+        <Card image={panDulce} title="Pan dulce"/>
+        <Card image={focaccia} title="Focaccia"/>
+        <Card image={budin} title="Budin"/>
+        <Card image={foto} title="Pan artesanal"/>
     </motion.div>
   )
 }
