@@ -1,6 +1,9 @@
 import React from "react";
 import { motion } from "motion/react";
 import foto from "../assets/fotoPan.webp"
+import focaccia from "../assets/Focaccia.jpeg"
+import panDulce from "../assets/PanDulce.jpeg"
+import budin from "../assets/budin.jpeg"
 
 const Card = ({ image, title }) => {
     return(
@@ -26,9 +29,9 @@ const Cards = () => {
         transition={{ duration: 0.5 }}
     >
         <Card image={foto} title="Pan artesanal"/>
-        <Card image={foto} title="Pan dulce"/>
-        <Card image={foto} title="Focaccia"/>
-
+        <Card image={panDulce} title="Pan dulce"/>
+        <Card image={focaccia} title="Focaccia"/>
+        <Card image={budin} title="Budin"/>
     </motion.div>
   )
 }

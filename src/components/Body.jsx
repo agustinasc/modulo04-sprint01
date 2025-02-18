@@ -3,7 +3,7 @@ import { motion } from "motion/react"
 import {slideInFromSide} from '../components/utility/animacion.js'
 import logo from '../assets/logo.png';
 import Cards from './Cards.jsx';
-import { div } from 'framer-motion/client';
+
 
 const Body = () => {
 
